@@ -16,10 +16,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", verifyToken, (req, res) => {
-    res.json({
-        username: req.user,
-        logout: "http://localhost:3000/logout",
-    });
+    if (req.user) {
+        res.json({
+            username: req.user,
+            logout: "http://localhost:3000/logout",
+        });
+    }
 });
 
 app.get("/logout", (req, res) => {
