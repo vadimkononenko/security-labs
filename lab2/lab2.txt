@@ -1,0 +1,15 @@
+***** 1.
+
+curl --request POST --url 'https://kpi.eu.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'audience=https://kpi.eu.auth0.com/api/v2/&grant_type=client_credentials&client_id=JIvCO5c2IBHlAe2patn6l6q5H35qxti0&client_secret=ZRF8Op0tWM36p1_hxXTU-B0K_Gq_-eAVtlrQpY24CasYiDmcXBhNS6IJMNcz1EgB'
+
+
+***** 2.
+
+curl -L --url "https://kpi.eu.auth0.com/api/v2/users" -H "Content-type: application/json" -H "Accept: application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjVCZTlBZFhrMERaUjhmR1dZYjdkViJ9.eyJpc3MiOiJodHRwczovL2twaS5ldS5hdXRoMC5jb20vIiwic3ViIjoiSkl2Q081YzJJQkhsQWUycGF0bjZsNnE1SDM1cXh0aTBAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8va3BpLmV1LmF1dGgwLmNvbS9hcGkvdjIvIiwiaWF0IjoxNzA1Njk0Nzg1LCJleHAiOjE3MDU3ODExODUsImF6cCI6IkpJdkNPNWMySUJIbEFlMnBhdG42bDZxNUgzNXF4dGkwIiwic2NvcGUiOiJyZWFkOnVzZXJzIGNyZWF0ZTp1c2VycyIsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyJ9.C0BwuZpyDwXsZjcs0_YE8YfpWzNE-DZIEPKtIGBBU90JKas6qPuxqlFWXmO-KlRC2_5fnok4aKdul3NgZPCKF70hPFnEHY3jr0yDi7IBpY5vY1KyxZj276CTtd-MU0Z0zPV_SKQlTl0If1rEDRE9uK9g_aD6XAxiWdvONDfbrKOlfP139NT95lXl92ZPJXCw3hdJKFUvTttnYob-NpfR8Ap6Ds0dB3WEZiYTM8RogRepoyVoz6xgv_ryyc9shtnX-vxl10MJG4YHa1YXkessKDd4DRKCSPHpUaT-Xx0JFprWUlnueqo1hvH_IKqoDF2k46ZNDpKknDg69GduG-w6Yw" -d "{\"email\": \"kononenko001@bigmir.net\", \"password\": \"kononenkovadym_1111\", \"connection\": \"Username-Password-Authentication\"}"
+
+
+***** 3.
+
+curl --request POST --url 'https://dev-sq1xdzym47fnrmuo.eu.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'audience=https://dev-sq1xdzym47fnrmuo.eu.auth0.com/api/v2/&grant_type=client_credentials&client_id=Csxylw37oIbvKzLdeFQBGI0fynH5f0qw&client_secret=W1hKni6HTdtWXFTA8K8BUcYrkzjqyXsv7ceKd4yZk3YSSHoeu1gXuc12UBuu6SA3'
+
+curl -L --url 'https://dev-sq1xdzym47fnrmuo.eu.auth0.com/api/v2/users' -H 'Content-type: application/json' -H 'Accept: application/json' -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InhETUtYQ0VwcnRfb19feWJvTEoybCJ9.eyJpc3MiOiJodHRwczovL2Rldi1zcTF4ZHp5bTQ3Zm5ybXVvLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJDc3h5bHczN29JYnZLekxkZUZRQkdJMGZ5bkg1ZjBxd0BjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9kZXYtc3ExeGR6eW00N2Zucm11by5ldS5hdXRoMC5jb20vYXBpL3YyLyIsImlhdCI6MTcwNTY5NDg5NywiZXhwIjoxNzA1NzgxMjk3LCJhenAiOiJDc3h5bHczN29JYnZLekxkZUZRQkdJMGZ5bkg1ZjBxdyIsInNjb3BlIjoicmVhZDpjbGllbnRfZ3JhbnRzIGNyZWF0ZTpjbGllbnRfZ3JhbnRzIGRlbGV0ZTpjbGllbnRfZ3JhbnRzIHVwZGF0ZTpjbGllbnRfZ3JhbnRzIHJlYWQ6dXNlcnMgdXBkYXRlOnVzZXJzIGRlbGV0ZTp1c2VycyBjcmVhdGU6dXNlcnMiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.rXqDtU8c7Ti5q77bK4KeJigsHSXlAQjNSbVRRH2OLfEB1ey2x6G6xxDYr26WM3SEjwLFEt3KCAvZFm8F6Wb7j4qtOO_LIlJhW4PW843K-3apVxfRciZtVQ4En5SQqrYNspAYOKKjqfN8dp-C4taTqFMUpI5524QnWsyaeUyvaa94MdvUfNNtr3Mv3qAXnop0MItSsvs0a7PADmGhNX29rdn_WkDPuQh2933nmEY9x_YhLAWG8U-xHptzh_heANmu49Zd3VRbLYmKBEXzc-2MGT6pI1OaRJrH1Ld18T0BHulCPS-6vgA60r3bhJoA_NsP99JaWBUTUvXtKWmULfAkQg' -d '{"email": "kononenko001@bigmir.net", "password": "kononenkovadym_1111", "connection": "Username-Password-Authentication"}'
